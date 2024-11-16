@@ -1,5 +1,7 @@
 package com.map.backbeachmap.services;
-import com.example.injectiondependence.dto.WeatherDTO;
+
+
+import com.map.backbeachmap.dto.WeatherDTO;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;

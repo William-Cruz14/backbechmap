@@ -1,6 +1,6 @@
 package com.map.backbeachmap.controllers;
 
-import com.example.injectiondependence.services.GeocodingService;
+import com.map.backbeachmap.services.GeocodingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;

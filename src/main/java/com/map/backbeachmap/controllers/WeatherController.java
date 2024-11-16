@@ -1,10 +1,10 @@
 package com.map.backbeachmap.controllers;
 
 
-import com.example.injectiondependence.dto.GeocodingDTO;
-import com.example.injectiondependence.dto.WeatherDTO;
-import com.example.injectiondependence.services.GeocodingService;
-import com.example.injectiondependence.services.WeatherService;
+import com.map.backbeachmap.dto.GeocodingDTO;
+import com.map.backbeachmap.dto.WeatherDTO;
+import com.map.backbeachmap.services.GeocodingService;
+import com.map.backbeachmap.services.WeatherService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

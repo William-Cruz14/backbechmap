@@ -1,6 +1,7 @@
 package com.map.backbeachmap.services;
 
-import com.example.injectiondependence.dto.GeocodingDTO;
+
+import com.map.backbeachmap.dto.GeocodingDTO;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
