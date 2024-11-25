@@ -3,13 +3,11 @@ package com.map.backbeachmap.controllers;
 import com.map.backbeachmap.services.GeocodingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin(origins = "*")
+@RequestMapping("api")
 public class GeocodingController {
     @Autowired
     private GeocodingService geocodingService;
